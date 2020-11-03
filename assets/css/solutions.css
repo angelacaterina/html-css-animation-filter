@@ -105,10 +105,14 @@
 
 @keyframes rotation3_4 {
   0%{
-    transform: rotate(0turn);
+    transform: rotate(0deg);
   }
 
- 75%{
-   transform: rotate(0.9turn);
+ 90%{
+   transform: rotate(324deg);
+ }
+
+ 100%{
+   transform: rotate(0deg);
  }
 }
