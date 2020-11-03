@@ -70,3 +70,14 @@
  border-radius: 20px;
  filter: grayscale(0.5) sepia(0.5);
 }
+
+/* ex-9-img */
+.ex-9-img {
+  transition: 2s;
+}
+
+.ex-9-img:hover {
+  border-radius: 20px;
+  filter: grayscale(0.5) sepia(0.5);
+  transform: scale(1.5);
+}
