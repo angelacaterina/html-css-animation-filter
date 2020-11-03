@@ -81,3 +81,17 @@
   filter: grayscale(0.5) sepia(0.5);
   transform: scale(1.5);
 }
+
+/* ex-10-icon */
+.ex-10-icon{
+  animation-name: rotation;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+ 0%{
+   transform: rotate(1turn);
+ }
+}
