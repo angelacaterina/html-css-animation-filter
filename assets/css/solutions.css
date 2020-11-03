@@ -60,3 +60,13 @@
 .ex-7-img:hover{
   filter: grayscale(0.7) sepia(0.5);
 }
+
+/* ex-8-img */
+.ex-8-img{
+ transition: 2s;
+}
+
+.ex-8-img:hover{
+ border-radius: 20px;
+ filter: grayscale(0.5) sepia(0.5);
+}
